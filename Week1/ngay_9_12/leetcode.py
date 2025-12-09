@@ -89,16 +89,3 @@ s7 = Solution7()
 print(s7.subtractProductAndSum(234))
 print(s7.subtractProductAndSum(4421))
 print("-"*20)
-
-class Solution8:
-    def removeDuplicates(self, nums):
-        i = 0
-        for num in nums:
-            if i < 1 or num != nums[i-1]:
-                nums[i] = num
-                i += 1
-        return i
-s8 = Solution8()
-print(s8.removeDuplicates([1,1,2]))
-print(s8.removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
-print("-"*20)
