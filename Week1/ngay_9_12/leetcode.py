@@ -14,7 +14,7 @@ class Solution:
         return result
 s = Solution()
 print(s.fizzBuzz(20))
-print("-"*20)
+print("1---------------------------")
 
 class Solution2:
     def defangIPaddr(self, address):
@@ -22,7 +22,7 @@ class Solution2:
 s2 = Solution2()
 print(s2.defangIPaddr("1.1.1.1"))
 print(s2.defangIPaddr("255.100.50.0"))
-print("-"*20)
+print("2---------------------------")
 
 class Solution3:
     def toLowerCase(self, s):
@@ -30,7 +30,7 @@ class Solution3:
 s3 = Solution3()
 print(s3.toLowerCase("Hello"))
 print(s3.toLowerCase("hEre"))
-print("-"*20)
+print("3---------------------------")
 
 class Solution4:
     def numJewelsInStones(self, jewels, stones):
@@ -42,7 +42,7 @@ class Solution4:
 s4 = Solution4()
 print(s4.numJewelsInStones("b", "aAAbbbb"))
 print(s4.numJewelsInStones("zZ", "ZZ"))
-print("-"*20)
+print("4---------------------------")
 
 class Solution5(object):
     def sortArrayByParity(self, nums):
@@ -57,7 +57,7 @@ class Solution5(object):
 s5 = Solution5()
 print(s5.sortArrayByParity([3,1,2,4,6,9]))
 print(s5.sortArrayByParity([0]))
-print("-"*20)
+print("5---------------------------")
 
 class Solution6:
     def signOfProduct(self, nums):
@@ -74,7 +74,7 @@ s6 = Solution6()
 print(s6.signOfProduct([-1,-2,-3,-4,3,2,1]))
 print(s6.signOfProduct([1,5,0,2,-3]))
 print(s6.signOfProduct([-1,1,-1,1,-1]))
-print("-"*20)
+print("6---------------------------")
 
 class Solution7:
     def subtractProductAndSum(self, n):
@@ -88,4 +88,4 @@ class Solution7:
 s7 = Solution7()
 print(s7.subtractProductAndSum(234))
 print(s7.subtractProductAndSum(4421))
-print("-"*20)
+print("7---------------------------")
