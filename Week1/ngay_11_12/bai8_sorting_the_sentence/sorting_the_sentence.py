@@ -10,5 +10,4 @@ class Solution:
         new_sentence = []
         for w in parts:
             new_sentence.append(w[:-1])
-
         return " ".join(new_sentence)
