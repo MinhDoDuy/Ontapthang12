@@ -116,31 +116,6 @@ print(s.number(121))
 print(s.number(122))
 print("------------------------")
 
-# digit = x % 10 -> 121 % 10 = 1
-# rs = rs * 10 + digit -> 0 * 10 + 1 = 1
-# x = 121 // 10 = 12
-#
-# digit = 12 % 10 = 2
-# rs = 1 * 10 + 2 = 12
-# x = 12 // 10 = 1
-#
-# digit = 1 % 10 = 1
-# rs = 12 * 10 + 1 = 121
-# x = 1 // 10 = 0
-#
-# x = 242
-# digit = x % 10 -> 242 % 10 = 2
-# rs = rs * 10 + digit -> rs = 0 * 10 + 2 = 2
-# x = 242 // 10 = 24
-#
-# digit = 24 % 10 = 4
-# rs = 2 * 10 + 4 = 24
-# x = 24 // 10 = 2
-#
-# digit = 2 % 10 = 2
-# rs = 24 * 10 + 2 = 242
-# x = 2 // 10 = 0
-
 #6 Plus One
 class Solution6:
     def plus_one(self, digits):
