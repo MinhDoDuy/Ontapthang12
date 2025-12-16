@@ -1,4 +1,4 @@
-from linhtinh import nums
+from linhtinh_list_lamda import nums
 
 
 class Solution:
